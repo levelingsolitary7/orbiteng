@@ -75,8 +75,6 @@ video#bgvid {
 
 .icon-button img {
     filter: brightness(0.9);
-    width: 58px;
-    height: 58px;
 }
 
 /* --- EFECTO HOVER --- */
@@ -93,6 +91,13 @@ video#bgvid {
     height: 180px;
     border-radius: 20px;   /* ← bordes suaves */
     background: rgba(40,40,40,0.7);
+}
+
+#btn-home img, #btn-craft img, #btn-mat img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 /* separaciones verticales */
